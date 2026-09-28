@@ -1,0 +1,62 @@
+
+.sr-only {
+    position: absolute;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+/* from google */
+}
+
+
+body {
+    font-family: Arial;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #fdbfdc;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+figure {
+    margin: 34px 0;
+    /* text-align: center; */
+}
+
+figcaption {
+    font-style: italic;
+}
+
+section {
+    margin-top: 40px;
+}
+
+footer {
+
+    margin-top: 40px;
+    padding: 20px 0;
+}
