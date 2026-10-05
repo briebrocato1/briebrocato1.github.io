@@ -46,6 +46,10 @@ nav {
 
 }
 
+nav .sr-only {
+    color: #ffffff
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
