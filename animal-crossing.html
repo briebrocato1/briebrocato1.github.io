@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing Island Guide</title>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet"> 
+<!-- quicksad and dm sans for fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=block" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="animal-crossing.css">
+
+
+</head>
+
+<body>
+
+    <!--skipping nav part -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header>
+        <h1><span class="material-symbols-outlined" aria-hidden="true">forest</span>Animal Crossing Island Guide</h1>
+    </header>
+    <nav>
+        <h2 class="sr-only">Main navigation</h2>
+
+
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#activities">Island Activities</a></li>
+            <li><a href="#critters">Critter Guide</a></li>
+            <li><a href="#planning">Island Planning</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main id="main-content" tabindex="-1">
+
+  
+        <section id="introduction">
+            <h2>Introduction</h2>
+
+            <p>Animal Crossing New Horizons is a life simulation game
+            that was made by Nintendo for the Nintendo Switch.  Players can move
+            to a deserted island and make their own community.  The island design is totally up to
+            the players(and Tom Nook).</p>
+
+            <p>Players can customize their homes, decorate the island,
+            collect wildlife and are, and curate the villagers on the island.
+            The game matches real-world time and seasons, which allows for
+            different activities and events throughout the year based on the player's location and the current season.</p>
+        </section>
+
+        <section id="activities">
+            <h2>Island Activities</h2>
+
+
+            <p>There are many activities to take part in on the deserted island. Some activities help players earn
+            Bells(money), while others allow players
+            to customize the island or complete collections.</p>
+
+            <h3>Fishing/Bug Catching</h3>
+            <p>Players can catch fish and bugs on their islands. These
+            creatures can be donated to the museum or sold for Bells. Most fish and bugs can only be caught during specific times of the day or year.</p>
+
+            <h3>Island Customization</h3>
+            <p>Players can decorate their islands with furniture,
+            plant flowers and trees, construct bridges and inclines,
+            and eventually unlock tools for changing the island's
+            terrain and waterways.</p>
+
+            <h3>Villager Interactions</h3>
+            <p>Animal villagers live on the island with the player.
+            Players can talk with villagers, exchange gifts, and
+            participate in activities and seasonal celebrations.  Players can also hunt for villagers when there is a vacancy on
+                the island.</p>
+        </section>
+
+
+
+
+        <section id="critters">
+            <h2> <span class="material-symbols-outlined" aria-hidden="true">water</span>Brief Fish Guide</h2>
+
+            <p>Players can catch different fish throughout their
+            islands. Fish can be donated to the museum or sold
+            to earn Bells.  The table below shows several fish,
+            where they can be found, and their selling prices.</p>
+
+            <table>
+                <caption>Animal Crossing: New Horizons Fish Guide</caption>
+
+                <thead>
+                    <tr>
+                    <th scope="col">Fish</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Selling Price (Bells)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Sea Bass</th>
+                        <td>Sea</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Horse Mackerel</th>
+                        <td>Sea</td>
+                        <td>150</td>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Red Snapper</th>
+                        <td>Sea</td>
+                        <td>3,000</td>
+                    </tr>
+
+                <tr>
+                        <th scope="row">Bitterling</th>
+                        <td>River</td>
+                        <td>900</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Coelacanth</th>
+                        <td>Sea (Rain)</td>
+                        <td>15,000</td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+
+
+    <section id="planning">
+        <h2>Island Planning</h2>
+
+        <p>Use this form to describe your island and the activities you enjoy most.</p>
+
+       <form id="island-form">
+
+
+            <fieldset>
+                <legend>Island Information</legend>
+
+
+                <label for="island-name">Island Name:</label>
+                <input type="text" id="island-name"
+                    name="island-name" required>
+
+                <label for="hemisphere">Island Hemisphere:</label>
+                <select id="hemisphere" name="hemisphere" required>
+
+                    <option value="">Select a hemisphere</option>
+                    <option value="northern">Northern Hemisphere</option>
+                    <option value="southern">Southern Hemisphere</option>
+                </select>
+            </fieldset>
+
+
+                <fieldset>
+
+                <legend>Favorite Island Activity</legend>
+
+                <input type="radio" id="fishing"
+                    name="activity" value="fishing">
+                <label for="fishing">Fishing</label>
+
+
+                <input type="radio" id="bug-catching"
+                    name="activity" value="bug-catching">
+                <label for="bug-catching">Bug Catching</label>
+
+                <input type="radio" id="decorating"
+                    name="activity" value="decorating">
+                <label for="decorating">Island Decorating</label>
+
+                <input type="radio" id="villagers"
+                    name="activity" value="villagers">
+                <label for="villagers">Talking to Villagers</label>
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend>Island Goals</legend>
+
+                <label for="goals">
+                    What would you like to improve on your island?
+                </label>
+
+                <textarea id="goals" name="goals"
+                        rows="4"></textarea>
+            </fieldset>
+
+
+
+            <button type="submit">Submit</button>
+
+        </form>
+            <section id="form-result"  hidden>
+                <h3>Your Island Plan</h3>
+                <p id="plan-summary" role="status"></p>
+
+            </section>
+
+    </section>
+
+
+    </main>
+
+
+    <!-- foot  -->
+<footer>
+    <p>Animal Crossing Island Guide</p>
+    <p>
+        Game information:
+        <a href="https://animalcrossing.nintendo.com/new-horizons/">
+            Nintendo's Animal Crossing: New Horizons website
+        </a>
+    </p>
+</footer>
+
+
+
+<!-- form submission script was based on MDN Web Docs -->
+<script>
+
+    const islandForm = document.getElementById("island-form");
+    const formResult = document.getElementById("form-result");
+    const planSummary = document.getElementById("plan-summary");
+
+
+    islandForm.addEventListener("submit", function(event) { event.preventDefault();
+
+        const islandName = document.getElementById("island-name").value;
+        const hemisphere = document.getElementById("hemisphere").value;
+        const activity = document.querySelector('input[name="activity"]:checked');
+        const goals = document.getElementById("goals").value;
+        const favoriteActivity = activity
+            ? activity.nextElementSibling.textContent
+            : "Not selected";
+
+        formResult.hidden = false;
+
+        planSummary.textContent ="Island: " + islandName + " | Hemisphere: " + hemisphere + " | Favorite Activity: " + favoriteActivity + " | Goals: " + (goals || "None provided");
+
+    });
+</script>
+
+</body>
+</html>
