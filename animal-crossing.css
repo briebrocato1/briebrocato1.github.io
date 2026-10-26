@@ -18,7 +18,23 @@ nav .sr-only {
     }
 
 header h1, #critters h2 {
-    display: inline;
+    display: inline-block;
+    /* vertical-align: middle;
+    margin: 0; */
+}
+
+header h1, #critters h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.material-symbols-outlined {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-right: 6px;
+
 }
 
 
@@ -155,14 +171,16 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 
 
 
-
+/* 
 .material-symbols-outlined {
     font-size: 1.3em;
     vertical-align: middle;
     margin-right: 6px;
 
 
-}
+} */
+
+
 
 /* generallayout */
 
