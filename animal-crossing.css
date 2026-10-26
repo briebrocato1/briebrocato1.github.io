@@ -17,6 +17,10 @@ nav .sr-only {
 
     }
 
+header h1, #critters h2 {
+    display: inline;
+}
+
 
 /* skipping nav */
 
