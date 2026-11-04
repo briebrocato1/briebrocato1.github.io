@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <!-- header -->
     <header>
@@ -20,24 +21,36 @@
         <h2 class="sr-only">Main navigation</h2>
     
         <ul>
-            <li> <a href="semantics.html">Semantics HTML</a> </li>
-            <li> <a href="semantics2.html">Semantics HTML Version 2</a> </li>
-            <li><a href="animal-crossing.html">Screen Reading - Animal Crossing</a></li>
+            <li> <a href="semantics2.html">Lab 2: HTML Basics</a> </li>
+            <li> <a href="animal-crossing.html">Lab 3: Tables and Forms</a> </li>
+            <li><a href="sims4.html">Lab 4: Accessible CSS Layout</a></li>
             
         </ul>
     </nav>
 
-    <h1>Brie Brocato's Universal Design Portfolio</h1>
+    
 
     <!-- about me -->
-    <main>
-        <section> 
+    <main id="main-content" tabindex="-1">
+        <section id="about-me">
+
         <h2>About Me</h2>
 
-        
-            <p>Hi my name is Brie and I am a senior Computer Science student at CU Boulder.  My favorite part about computer science is 
-                design because I like to make things look pretty.  I currently work as IT Support for law firms.  In my freetime, I like to bake, hike,
-            ski, and workout! </p>
+            
+        <div class="about-me-grid">
+            <div class="about-me-text">
+                <p>Hi my name is Brie, and I am a senior Computer Science student at CU Boulder.  My favorite part about computer science is 
+                design because I enjoy being able to use my creativity to make projects look visually appealing.  I currently work as IT Support, 
+                where I help troubleshoot issues for law firms.  In my freetime, I love to do anything active or outside.  My favorite outdoor activities are skiing, hiking, running, and weigth lifting.
+                I also enjoy trying new baking recipes, reading, and hanging out with my friends.</p>
+
+
+
+            <div class="about-me-image">
+                <img src="img/me.png" alt="A photo of Brie with a yellow unmbrella" class="about-me-photo" width="300" height="300">
+            </div>
+        </div>
+
         </section>
     </main>
 
